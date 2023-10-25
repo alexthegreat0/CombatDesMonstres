@@ -34,4 +34,5 @@ while healthpoints >= 1:
     if healthpoints >= 1:
         print("Vouz allez dans la prochaine salle")
     time.sleep(3)
+    
 print("Vous etes mort...")
