@@ -18,7 +18,7 @@ while healthpoints >= 1:
     if victoiresconsecutives >= 3:
         monsterhealth = 10
     elif monsterhealth != currentmonsterhealth:
-        monsterhealth = random.randint(1,5)
+        monsterhealth = random.randint(1,7)
     print("\n---------\n\nVous vous trouvez dans un couloir avec une porte de sortie avec un monstre SUPER effrayant!!!\n")
     print("Vous avez", Fore.GREEN + str(healthpoints), "point(s) de vie\nLe monstre a", Fore.RED + str(monsterhealth), "point(s) de vie")
 
