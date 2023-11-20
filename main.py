@@ -68,7 +68,7 @@ while healthpoints >= 1:
 
     else:
         print("Merci et au revoir... ")
-        exit()
+        healthpoints = 0
 
     if healthpoints >= 1: #s'assurer que le héro n'est pas mort
         print("Vouz allez dans la prochaine salle")
